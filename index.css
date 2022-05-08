@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.banner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.banner img {
+  width: 100%;
+}
+.heading {
+  color: rgb(255, 213, 0);
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: left;
+  left: 0px;
+  top: 200px;
+}
+.slogan {
+  color: rgb(159, 158, 158);
+  font-size: 15px;
+  top: 70%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+  display: inline-block;
+}
+.navbar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+}
