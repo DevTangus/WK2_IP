@@ -4,7 +4,7 @@
   font-family: "Poppins", "Actor", "Adamin";
 }
 .background {
-  background-image: url("./Assets\ /moving 1.png");
+  background-image: url("/Assets /moving 1.png");
   background-size: cover;
   height: 100vh;
   margin-top: 5px;
@@ -77,10 +77,10 @@ section p {
 }
 
 .txt1 {
-margin-left: 100px;
-margin-top: 300px;
+  margin-left: 100px;
+  margin-top: 300px;
 }
-.txt1 hr{
+.txt1 hr {
   background: radial-gradient(brown, orange, black);
   height: 4px;
   width: 200px;
