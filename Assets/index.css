@@ -4,7 +4,7 @@
   font-family: "Poppins", "Actor", "Adamin";
 }
 .background {
-  background-image: url("/Assets /moving 1.png");
+  background-image: url("/Assets/moving 1.png");
   background-size: cover;
   height: 100vh;
   margin-top: 5px;
