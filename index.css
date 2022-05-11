@@ -1,47 +1,87 @@
-body {
-  margin: 0px;
-  padding: 0px;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Actor", "Adamin";
 }
-.banner {
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
+.background {
+  background-image: url("./Assets\ /moving 1.png");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 5px;
 }
-.banner img {
-  width: 100%;
-}
-.heading {
-  color: rgb(255, 213, 0);
-  position: absolute;
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
-  font-size: 20px;
-  display: inline-block;
-  justify-content: left;
-  left: 0px;
-  top: 200px;
-}
-.slogan {
-  color: rgb(159, 158, 158);
-  font-size: 15px;
-  top: 70%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  position: absolute;
+nav {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40px;
 }
-.navbar ul {
-  list-style: none;
-  padding: 0%;
-  margin: 0%;
+nav ul li {
   display: inline-block;
+  list-style-type: none;
+  padding: 10px 20px;
+  padding-left: 100px;
 }
-.navbar ul a {
+nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 15px;
-  text-transform: uppercase;
-  padding: 0px 30px;
+  font-weight: bold;
+  font-size: large;
+}
+.login {
+  background-color: #ffac12;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.span1 {
+  color: #1b1b1b;
+  font-weight: bold;
+  font-size: large;
+}
+.register {
+  background-color: #050505;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.span2 {
+  color: #ffac12;
+  font-weight: bold;
+  font-size: large;
+}
+section h1 {
+  color: rgb(255, 230, 0);
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 4%;
+  text-indent: 4px;
+  margin-bottom: 20px;
+  padding-left: 4px;
+}
+section p {
+  color: #a9a9a9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+#sectn1 {
+  display: flex;
+  margin-top: 100px;
+}
+
+.txt1 {
+margin-left: 100px;
+margin-top: 300px;
+}
+.txt1 hr{
+  background: radial-gradient(brown, orange, black);
+  height: 4px;
+  width: 200px;
 }
