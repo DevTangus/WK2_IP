@@ -4,7 +4,7 @@
   font-family: "Poppins", "Actor", "Adamin";
 }
 .background {
-  background-image: url("../images/moving\ 1.png");
+  background-image: url("/assets/images/moving\ 1.png");
   background-size: cover;
   height: 100vh;
   margin-top: 5px;
@@ -84,4 +84,29 @@ section p {
   background: radial-gradient(brown, orange, black);
   height: 4px;
   width: 200px;
+}
+.cont-1 {
+  display: flex;
+  flex-direction: row;
+  width: 33.33%;
+  justify-items: space-between;
+}
+.cont-2 {
+  display: flex;
+  flex-direction: row;
+  width: 33.33%;
+  justify-items: space-between;
+}
+footer {
+  background-color: #050505;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
 }
